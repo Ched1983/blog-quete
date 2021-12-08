@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
+
 <body class="body">
     <header class="header">
         <section class=baniere>
-            <img src="../images/logo-2.png" alt="logo-2" class="logo-2 logo-baniere">   
+            <img src="../images/logo-2.png" alt="logo-2" class="logo-2 logo-baniere">
             <h1>Home Sweet Home</h1>
             <img src="../images/images.jpg" alt="logo-1" class="logo-1 logo-baniere">
         </section>
@@ -19,20 +21,48 @@
             <a href="../html/articles.html" class="titre-menu menu-2">Articles</a>
             <a href="../html/galerie.html" class="titre-menu menu-3">Galerie</a>
             <a href="../html/contact.html" class="titre-menu menu-4">Contact</a>
-            <a href="../html/recherche.html" class="titre-menu menu-5">Recherche</a>
+            <form class="recherche" method="GET" action="rechercher.php">
+                <input type="text" class="recherche-case" placeholder="Recherche">
+                <button id="loupe" type="submit" class="icone-loupe"></button>
         </nav>
     </header>
-    <section class="article">
-        <img src="../images/Page_6.png" alt="a modifier" class="imgtest">
-        <p class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, perspiciatis iure? Facilis alias repudiandae sapiente quibusdam voluptas. Saepe quisquam ex dolorum, aut aliquam iusto consequatur quasi labore aperiam minus nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam at fuga, dolores aperiam nisi beatae eveniet odit nam sequi nostrum sit accusamus nulla eius aut possimus est natus suscipit!Lorem</p>
-    </section>
-    <section class="article">
-        <p class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, perspiciatis iure? Facilis alias repudiandae sapiente quibusdam voluptas. Saepe quisquam ex dolorum, aut aliquam iusto consequatur quasi labore aperiam minus nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam at fuga, dolores aperiam nisi beatae eveniet odit nam sequi nostrum sit accusamus nulla eius aut possimus est natus suscipit!Lorem</p>
-        <img src="../images/Page_6.png" alt="a modifier" class="imgtest">   
+    <section class="tout-article">
+        <section class="article">
+            <img src="../images/Page_6.png" alt="a modifier" class="imgtest">
+            <p class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, perspiciatis iure?
+                Facilis alias repudiandae sapiente quibusdam voluptas. Saepe quisquam ex dolorum, aut aliquam iusto
+                consequatur quasi labore aperiam minus nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quis ipsam at fuga, dolores aperiam nisi beatae eveniet odit nam sequi nostrum sit accusamus nulla eius
+                aut possimus est natus suscipit!Lorem</p>
+        </section>
+        <section class="article">
+            <img src="../images/Page_6.png" alt="a modifier" class="imgtest">
+            <p class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, perspiciatis iure?
+                Facilis alias repudiandae sapiente quibusdam voluptas. Saepe quisquam ex dolorum, aut aliquam iusto
+                consequatur quasi labore aperiam minus nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quis ipsam at fuga, dolores aperiam nisi beatae eveniet odit nam sequi nostrum sit accusamus nulla eius
+                aut possimus est natus suscipit!Lorem</p>
+        </section>
+        <section class="article">
+            <img src="../images/Page_6.png" alt="a modifier" class="imgtest">
+            <p class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, perspiciatis iure?
+                Facilis alias repudiandae sapiente quibusdam voluptas. Saepe quisquam ex dolorum, aut aliquam iusto
+                consequatur quasi labore aperiam minus nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quis ipsam at fuga, dolores aperiam nisi beatae eveniet odit nam sequi nostrum sit accusamus nulla eius
+                aut possimus est natus suscipit!Lorem</p>
+        </section>
     </section>
     <section class="grid">
-
+        <div class="one prout"></div>
+        <div class="two prout"></div>
+        <div class="three prout"></div>
+        <div class="four prout"></div>
+        <div class="five prout"></div>
+        <div class="six prout"></div>
+        <div class="seven prout"></div>
+        <div class="height prout"></div>
     </section>
-    
+    <script src="../js/script.js"></script>
 </body>
+
 </html>

@@ -1,4 +1,7 @@
+/*css header et nav*/
 .body {
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: auto;
 }
@@ -24,6 +27,14 @@
         margin: auto 2em;
 }
 
+.logo-2 {
+    box-shadow: 0em 0em 1.5em 1em rgb(34, 134, 235);
+}
+
+.logo-1 {
+    box-shadow: 0em 0em 1.5em 1.2em rgb(172, 204, 27);
+}
+
 h1 {
     height: auto;
     margin: 0em;
@@ -40,13 +51,11 @@ h1 {
 }
 
 .titre-menu {
-    color: rgb(2, 37, 143);
     font-size: 1.8em;
     text-decoration: none;
 }
 
 .titre-menu:hover {
-    color: rgb(2, 65, 255);
     font-weight: bold;
     text-decoration: underline;
 }
@@ -67,21 +76,26 @@ h1 {
     color: rgb(246, 134, 6);
 }
 
-.menu-5 {
-    color: rgb(208, 253, 4);
+.recherche {
+   display: flex;
+   margin: 0.5em;
+   
 }
 
-.grid {
-    width: 100%;
-    height: 30em;
-    background-color: lightgrey;
+.recherche-case {
+    height: 2em;
+    width: 9.1em;
+    color: rgb(154, 232, 6);
+    border: none;
+    outline: none;
+}
+ ::placeholder {
+    color: rgb(154, 232, 6);
+    font-size: 1.8em;
 }
 
-.imgtest {
-    height: 20em;
-    width: auto;
-    margin: 2em 2em;
-    border: 1px solid blue;
+input:checked {
+    border-color: red;
 }
 
 .lorem {
@@ -90,8 +104,85 @@ h1 {
     margin: 2em 2em;
 }
 
-.article {
+.icone-loupe {
+    background-image: url(../images/loupe.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2em;
+    width: 2em;
+    border: none;
+}
+/* css articles*/
+.tout-article {
     display: flex;
-    margin: 2em 1em;
-    box-shadow: inset 2px 2px 10px 90px rgb(70, 209, 238, 0.1);
+    justify-content: space-around;
+}
+
+.article {
+   text-align: center;
+    width: 33%;
+    box-shadow: inset 2px 2px 10px 90px rgb(70, 209, 238, 0.2);
+}
+
+.imgtest {
+    height: 30em;
+    width: auto;
+    margin: 2em 2em;
+    border: 1px solid blue;
+}
+
+/*css grid*/
+.prout{
+    height: auto;
+    width: auto;
+    background-color: cadetblue;
+}
+
+.grid {
+    width: 100%;
+    height: 60em;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 1.4em 1fr 1.4em 6em 1.4em 6em 1.4em 1fr 1.4em 1fr 1.4em;
+    grid-template-rows: 1.4em 1fr 1.4em 1fr 1.4em 1fr 1.4em;
+}
+
+.one {
+    grid-column: 2 / 5;
+    grid-row: 2;
+}
+
+.two {
+    grid-column: 6 / 9;
+    grid-row: 2;
+}
+
+.three {
+    grid-column: 10 ;
+    grid-row: 2 / 5;
+}
+
+.four {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.five {
+    grid-column: 4 / 7;
+    grid-row: 4 / 7;
+}
+
+.six {
+    grid-column: 8 / 9;
+    grid-row: 4 / 7;
+}
+
+.seven {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+
+.height {
+    grid-column: 10 / 11;
+    grid-row: 6 / 7;
 }

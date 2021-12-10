@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 10.5em;
-    }
+}
 
 .logo-baniere {
         height: 7em;
@@ -42,7 +42,6 @@ h1 {
     font-size: 5em;
     font-family: 'Segoe UI';
     text-shadow: 0 4px black, 0 -4px black, 0 4px black, 0 -4px black ;
-
 }
 
 .menu {
@@ -79,7 +78,6 @@ h1 {
 .recherche {
    display: flex;
    margin: 0.5em;
-   
 }
 
 .recherche-case {
@@ -116,6 +114,7 @@ input:checked {
     width: 2em;
     border: none;
 }
+
 /* css articles*/
 .tout-article {
     display: flex;
@@ -125,7 +124,7 @@ input:checked {
 .article {
    text-align: center;
     width: 33%;
-    box-shadow: inset 2px 2px 10px 90px rgb(70, 209, 238, 0.2);
+    box-shadow: inset 2px 2px 10px 10px rgb(70, 209, 238, 0.2);
     border-radius: 2em;
 }
 
@@ -140,7 +139,6 @@ input:checked {
 .prout{
     height: auto;
     width: auto;
-    background-color: cadetblue;
     border-radius: 2em;
     background-position-x: center;
     background-position-y: center;  
@@ -161,7 +159,6 @@ input:checked {
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    
 }
 
 .two {
@@ -186,7 +183,6 @@ input:checked {
     height: 100%;
     grid-column: 2 / 3;
     grid-row: 4 / 5;
-    
 }
 
 .five {
@@ -201,12 +197,19 @@ input:checked {
 .six {
     grid-column: 8 / 9;
     grid-row: 4 / 7;
+    display: flex;
+    flex-direction: column;
+    border: 0.2rem solid cadetblue;
+    box-shadow: inset 2px 2px 10px 10px rgb(70, 209, 238, 0.2);
 }
 
 .seven {
     grid-column: 2 / 3;
     grid-row: 6 / 7;
-    
+    display: flex;
+    flex-direction: column;
+    border: 0.2rem solid cadetblue;
+    box-shadow: inset 2px 2px 10px 10px rgb(70, 209, 238, 0.2);
 }
 
 .height {
@@ -215,6 +218,76 @@ input:checked {
     background-image: url(https://i.pinimg.com/originals/0d/85/c5/0d85c55e826ef3c5a1079163930c9688.gif);
     background-size: cover;
     border-radius: 2em;
-
 }
 
+.jouets1 {
+    width: 16rem;
+    text-align: center;
+    margin-right: auto;
+}
+
+.ikea {
+    width: 10rem;
+    margin-right: 3rem;
+    margin-left: auto;
+}
+
+.despe {
+    width: 10rem;
+    margin-right: auto;
+    margin-left: 3rem;
+}
+
+.jouets2 {
+    width: 10rem;
+    margin-right: 3rem;
+    margin-left: auto;
+}
+
+h3 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.fournisseurs {
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.sos {
+    width: 6rem;
+}
+
+.tiktok {
+    width: 6rem;
+}
+
+.messenger {
+    width: 4rem;
+}
+
+.instagram {
+    width: 6rem;
+}
+
+.twitter {
+    width: 8rem;
+}
+
+.facebook {
+    width: 8rem;
+}
+
+.snapchat {
+    width: 4rem;
+}
+
+.haut {
+    align-self: center;
+}
+
+.bas {
+    align-self: center;
+}

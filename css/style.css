@@ -348,8 +348,8 @@ h3 {
 .imgtest1 {
     display: block;
     margin:  auto;
-    height: auto;
-    width: 25rem;
+    height: 25rem;
+    width: auto;
 
 }
 

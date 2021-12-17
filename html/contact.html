@@ -11,9 +11,9 @@
 <body class="body">
     <header class="header">
         <section class=baniere>
-            <img src="../images/logo-2.png" alt="logo-2" class="logo-2 logo-baniere">   
+            <img src="../images/header/logo-2.png" alt="logo-2" class="logo-2 logo-baniere">   
             <h1>Home Sweet Home</h1>
-            <img src="../images/images.jpg" alt="logo-1" class="logo-1 logo-baniere">
+            <img src="../images/header/images.jpg" alt="logo-1" class="logo-1 logo-baniere">
         </section>
         <nav class="menu">
             <a href="../html/index.html" class="titre-menu menu-1">Home</a>
@@ -26,18 +26,28 @@
         </nav>
     </header>
     <section>
-        <h2>contactez moi...</h2>
-        <form action="contact" class="contact">
-            <input type="text" alt="Prénom" class="prenom">
-            <input type="mail" alt="mail" class="mail">
-            <input type="text" alt="question" class="question">
-            <input type="sumit" alt="sumit" class="sumit">
-        </form>
+        <div class="contact">
+            <h2>Contactez-nous...</h2>
+            <form action="contact" class="contact">
+                <div class="form">
+                    <input type="text" id="name" name="user_name" value="c'est quoi ton petit nom ?" class="tous">
+                </div>
+                <div class="form">
+                    <input type="email" id="mail" name="user_mail" value="E-mail or She-mail" class="tous">
+                </div>
+                <div class="form">
+                    <textarea id="msg" name="user_message" class="tous message">Message</textarea>
+                </div>
+                <div class="form">
+                    <input type="button" id="summit" class="summit" value="Envoie le...">
+                </div>
+            </form>
+        </div>
     </section>
     <footer>
         <section class="footer">
-            <p>Projet 1 Solo 2021/2022</p>
-            <p>Aprés je sais pas quoi mettre ici car la véritée es ailleurs... oh si "Merci pour la pipe"</p>
+            <p>Projet Solo 2021/2022</p>
+            <p>Je sais pas quoi mettre ici car la vérité est ailleurs... oh si "Merci pour la pipe!!!"</p>
         </section>
     </footer>
 </body>

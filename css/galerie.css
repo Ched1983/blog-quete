@@ -104,8 +104,43 @@
 
 .close2 {
     display: block;
-    margin: auto;
-    border-radius: 1rem;
+    margin-left: 96%;
     height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
 }
 
+.close2:hover {
+    font-size: 1.5rem;
+}
+
+.po {
+    height: 30rem;
+    position: absolute;
+    opacity: 0;
+}
+
+.suivant .precedent {
+    color: blue;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+}
+
+.suivant {
+    right: 1rem;
+}
+
+.precedent {
+    left: 1rem;
+}
+
+.po.active {
+    opacity: 1;
+}
+
+.slider1 {
+    text-align: center;
+}

@@ -1,0 +1,111 @@
+.img-g {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    height: 20rem;
+    width: 33%;
+    border-radius: 0.6em;
+    border-color:  cadetblue;
+    font-size: 2.5rem;
+    border-color: transparent;
+    background-size: cover;
+    color: transparent;
+}
+
+.placement {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-1 {
+    margin-top: 3rem;
+}
+
+.salon { 
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.38\ \(3\).jpeg);
+}
+
+.salon:hover {
+    color: blue;
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.38\ \(3\)\ -\ Copie.jpeg);
+}
+ 
+.balcon {
+    background-image: url(../images/galerie/20210925_195330.jpg);
+}
+
+.balcon:hover {
+    color: blue;
+    background-image: url(../images/galerie/20210925_195330\ -\ Copie.jpg);
+}
+
+.cuisine {
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.38\ \(5\).jpeg);
+}
+
+.cuisine:hover {
+    color: blue;
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.38\ \(5\)\ -\ Copie.jpeg);
+}
+
+.chambre-1 {
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(3\).jpeg);
+}
+
+.chambre-1:hover {
+    color: blue;
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(3\)\ -\ Copie.jpeg);
+}
+
+.salle-de-bain {
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39.jpeg);
+}
+
+.salle-de-bain:hover {
+    color: blue;
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ -\ Copie.jpeg);
+}
+
+.chambre-2 {
+    background-image: url(../images/galerie/1639059894815.jpg);
+}
+
+.chambre-2:hover {
+    color: blue;
+    background-image: url(../images/galerie/1639059894815\ -\ Copie.jpg);
+}
+
+.chambre-3 {
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(4\).jpeg);
+}
+
+.chambre-3:hover {
+    color: blue;
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(4\)\ -\ Copie.jpeg);
+}
+
+.couloir {
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(7\).jpeg);
+}
+
+.couloir:hover {
+    color: blue;
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(7\)\ -\ Copie.jpeg);
+}
+
+.chambre-4 {
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(1\).jpeg);
+}
+
+.chambre-4:hover {
+    color: blue;
+    background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(1\)\ -\ Copie.jpeg);
+}
+
+.close2 {
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+    height: 2rem;
+}
+

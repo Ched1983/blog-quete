@@ -1,4 +1,7 @@
 .contact {
+    background-image: url(../images/galerie/1639059894862.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 2rem;
     height: 35rem;
     width: auto;
@@ -11,6 +14,7 @@ h2 {
     text-align: center;
     font-size: 4rem;
     color: rgb(70, 209, 238);
+    margin-top: 1rem;
 }
 
 
@@ -20,6 +24,7 @@ h2 {
 }
 
 .tous {
+    font-size: 0.7rem;
     text-align: center;
     border-radius: 2em;
     border: 0.1rem solid cadetblue;
@@ -29,5 +34,26 @@ h2 {
 }
 
 .message {
+    font-size: 0.7rem;
     height: 10rem;
+}
+
+.summit {
+    border-radius: 1rem;
+    border: 0.1rem solid cadetblue;
+    box-shadow: inset 2px 2px 10px 10px rgb(70, 209, 238, 0.2);
+    height: 2rem;
+    width: 12rem;
+    margin-top: 0;
+}
+
+.tous::placeholder {
+    font-size: 1rem;
+    color: rgb(70, 209, 238);
+}
+
+.summit:hover {
+    font-weight: bold;
+    border: 0.2rem solid rgb(70, 209, 238);
+    box-shadow: inset 2px 2px 10px 10px rgb(70, 209, 238, 0.4);
 }

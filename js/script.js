@@ -33,3 +33,27 @@ open3.addEventListener('click', function() {
 close3.addEventListener('click', function() {
     modal3.style.display = "none"
 })
+
+const open4 = document.querySelector('#open4');
+const modal4 = document.querySelector('#modal4');
+const close4 = document.querySelector('#close4');
+
+open4.addEventListener('click', function() {
+    modal4.style.display = "block"
+})
+
+close4.addEventListener('click', function() {
+    modal4.style.display = "none"
+}) 
+
+const balcon = document.querySelector('#balcon');
+const modal5 = document.querySelector('#modal5');
+const close5 = document.querySelector('#close5');
+
+balcon.addEventListener('click', function() {
+    modal5.style.display = "block"
+})
+
+close5.addEventListener('click', function() {
+    modal5.style.display = "none"
+}) 

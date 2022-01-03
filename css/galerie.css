@@ -127,10 +127,10 @@
     font-size: 1.5rem;
 }
 
-.po {
+.po1, .po2, .po3, .po4, .po5, .po6, .po7, .po8, .po9, .active, .po{
     height: 35rem;
     position: absolute;
-    opacity: 0;
+    display: none;
 }
 
 
@@ -149,8 +149,8 @@
     left: 1rem;
 }
 
-.po.active {
-    opacity: 1;
+.active {
+    display: block;
 }
 
 .sliderform {

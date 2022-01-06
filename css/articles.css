@@ -27,3 +27,10 @@ font-size: 1.3rem;
 text-indent: 3rem;
 color: rgb(0, 0, 147);
 }
+
+/*media query*/
+
+@media screen and (max-width:1200px) {
+
+    
+}

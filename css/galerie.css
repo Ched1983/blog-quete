@@ -135,6 +135,7 @@
 
 .po1, .po2, .po3, .po4, .po5, .po6, .po7, .po8, .po9, .active, .po{
     height: 35vw;
+    width: auto;
     display: none;
 }
 
@@ -176,3 +177,13 @@
     justify-content: center;
 }
 
+/*Smartphone*/
+@media only screen and (max-device-width : 320px) and (min-device-width : 699px) {
+    /* Styles pour cette Media Queries */
+    }
+/*Tablet*/
+    @media only screen and (max-device-width : 700px) and (min-device-width : 1024px) {
+    /* Styles pour cette Media Queries */
+    }
+    /*Ecran PC*/
+    @media only screen and (max-width : 1025px){

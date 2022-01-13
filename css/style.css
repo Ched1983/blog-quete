@@ -1,9 +1,11 @@
 /*css header et nav*/
 .body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     width: 100%;
-    height: auto;
+    /* height: auto; */
 }
 
 .header {
@@ -19,7 +21,7 @@
     background-image: url(../images/header/test.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 10vw;
+    height: 10rem;
 }
 
 .logo-baniere {
@@ -36,7 +38,7 @@
     box-shadow: 0em 0em 1.5em 1.2em rgb(172, 204, 27);
 }
 
-h1 {
+.tete {
     height: auto;
     margin: 0em;
     color: white;
@@ -127,11 +129,27 @@ input:checked {
     margin-right: 1%;
     margin-left: 1%;
     text-align: justify;
-    width: 32%;
+    width: 30%;
     box-shadow: inset 2px 2px 10px 10px rgb(70, 209, 238, 0.2);
     border-radius: 2em;
     border: 0.1rem solid cadetblue;
 }
+
+.artbck1 {
+    background-image: url(../images/galerie/article1.jpg);
+    background-size: cover;
+}
+
+.artbck2 {
+    background-image: url(../images/galerie/article2.jpg);
+    background-size: cover;
+}
+
+.artbck3 {
+    background-image: url(../images/galerie/article3.jpg);
+    background-size: cover;
+}
+
 .momo {
         height: 20rem;
         width: auto;
@@ -149,6 +167,7 @@ input:checked {
 }
 
 /*css grid*/
+
 .prout{
     height: auto;
     width: auto;
@@ -297,9 +316,14 @@ input:checked {
 
 
 .haut {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    align-self: center;
-    padding-top: 10vw;
+    align-items: center;
+}
+
+.haut div img {
+    margin-top: 2em;
 }
 
 .bas {
@@ -326,7 +350,7 @@ input:checked {
     padding-top: 2vw;
     margin: auto;
     margin-top: 4vw;
-    height: 45vw;
+    height: auto;
     width: 95%;
     background-color: white;
     border-radius: 3rem;
@@ -349,9 +373,11 @@ input:checked {
 
 .close1 {
     display: block;
-    margin: auto;
-    border-radius: 1rem;
+    margin: 2rem auto;
+    margin-bottom: 5px;
+    border-radius: 1rem 1rem 0 0;
     height: 2rem;
+    
 }
 
 .open {
@@ -374,61 +400,108 @@ input:checked {
     background-size: cover;
     color: white;
     font-size: 1.2vw;
+    bottom: 0;
 
 }
 
-/*media query*/
-
-@media screen and (max-width: 1200px) {
     
-   
-} 
 /*Smartphone*/
-    @media only screen and (min-device-width : 320px) and (max-device-width : 699px) {
+@media all and (max-device-width : 699px) {
     /* Styles pour cette Media Queries */
-    .six{
+    .one, .three, .five, .six, .height{
         display: none;
     }
-    .five,.haut,.content{
-        display: none;
-    }    
-    .grid,.one,.two,.three,.four,.height{
+    .four, .two {
+        height: 15em;
+        margin-bottom: 6px;
+    }
+    .grid{
         display: block;
     }
-    .asterix{
-    display: none;
-    }
+    
     .tout-article {
         flex-direction: column;
         width: 100%;
     }
     .article {
-        width: 100%;
+        width: 98.5%;
         margin: 10px 5px;
         font-size: 3vw;
     }
-    h1 {
-        height: auto;
-        margin: 0em;
-        color: white;
-        font-size: 4.5vw;
-        font-family: 'Segoe UI';
-        text-shadow: 0 4px black, 0 -4px black, 0 4px black, 0 -4px black ;
-    }
+    
     .p {
         font-size: 3vw;
     } 
 
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .titre-menu {
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    .logo-2 {
+        display: none;
+    }
+
+    .logo-1 {
+        display: none;
+    }
+
+    .baniere {
+        height: 15vw;
+    }
+
+    .commun {
+        height: auto;
+    }
+    
+    .haut {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .haut div img {
+        padding: 0;
+        margin: 20px;
+    }
+    .tete {
+        height: auto;
+        margin: 8px auto;
+        font-size: 8vw;            
+    }
+    .titre-menu {
+        font-size: 15px;
+        text-decoration: wavy;
+    }
+
+    .recherche {
+        display: flex;
+        text-align: center;
+        margin-top: 0.6vw;
+     }
+
+    
     }
 
 /*Tablet*/
     @media only screen and (min-device-width : 700px) and (max-device-width : 1024px) {
+
+        .tete {
+            height: auto;
+            margin: auto;
+            font-size: 6vw;            
+        }
+        
         
         .commun {
-            height: 100vw;
+            height: auto;
         }
         .article {
-            width: 100%;
+            width: 98.5%;
             margin: 10px 5px;
             font-size: 3vw;
         }
@@ -437,15 +510,21 @@ input:checked {
             width: 100%;
         }
         
+        .logo-2 {
+            display: none;
+        }
+
+        .baniere {
+            height: 7rem;
+        }
+
+        .two {
+            min-height: 165px;
+        }
     }
 
     /*Ecran PC*/
     @media only screen and (min-width : 1025px){
-
-   
-        h1 {
-            margin: auto;
-        }
     
         .p {
             font-size: 3vw;
@@ -456,10 +535,5 @@ input:checked {
     
         .h3 {
             margin: 0;
-        }
-    
-        .commun {
-            height: 55vw;
-            margin-top: 2vw;
         }
     }

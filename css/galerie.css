@@ -5,8 +5,8 @@
     justify-content: space-around;
     padding-top: 4vw;
     margin: auto;
-    margin-top: 6vw;
-    height: 40vw;
+    margin-top: 4vw;
+    height: 37vw;
     width: 95%;
     background-color: white;
     border-radius: 1vw;
@@ -20,10 +20,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
     color: rgba(0, 0, 0, 0);
-}
-.item img{
-    width: 100%;
-    height: auto;
+    border-radius: 2vw;
+    border-color: transparent;
 }
 
 .galerie {
@@ -31,7 +29,8 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    margin: 50px auto 0;
+    margin: 10px auto 0;
+
 }
 
 
@@ -216,14 +215,27 @@
 }
 
 /*Smartphone*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 699px) {
-    /* Styles pour cette Media Queries */
-       }
+@media all and (max-device-width : 699px) {
+    .img-g{
+        height: 200px;
+    }
+
+    .commun2 {
+        height: 30vh;
+        width: 95%;
+    }
+
+    .po1, .po2, .po3, .po4, .po5, .po6, .po7, .po8, .po9, .active, .po{
+        height: 28vh;
+    }
+}
+
 /*Tablet*/
     @media only screen and (min-device-width : 700px) and (max-device-width : 1024px) {
-    /* Styles pour cette Media Queries */
+    
 
 
-    }
-    /*Ecran PC*/
-    @media only screen and (min-width : 1025px){}
+}
+
+/*Ecran PC*/
+@media only screen and (min-width : 1025px){}

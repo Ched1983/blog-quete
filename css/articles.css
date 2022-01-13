@@ -14,7 +14,7 @@
 
 .pipou {
     margin: 2vw;
-    width: 200px;
+    height: 300px;
 }
 
 .pipoug {
@@ -37,7 +37,7 @@ color: rgb(0, 0, 147);
 /*media query*/
 
 /*Smartphone*/
-@media screen and (min-width : 280px) and (max-width : 699px) {
+@media all and (max-device-width : 699px) {
     /* Styles pour cette Media Queries */
     .arttest {
         flex-direction: column;
@@ -48,11 +48,12 @@ color: rgb(0, 0, 147);
         margin: 1rem;
         }
     }
+
     .pipou {
-    align-self: center;
-    size: 15vw;
-    border-radius: 1%;
+        align-self: center;
+        height: 120px ;
     }
+
     .article1 {
         font-size: 3vw;
     }

@@ -66,7 +66,7 @@ h2 {
 }
 
 /*Smartphone*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 699px) {
+@media all and (max-device-width : 699px) {
     /* Styles pour cette Media Queries */
     h2 {
         text-align: center;

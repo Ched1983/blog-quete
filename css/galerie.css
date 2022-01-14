@@ -203,22 +203,14 @@
     display: flex;
     justify-content: center;
 }
-.footer {
-    width: 100%;
-    text-align: center;
-    height: 6vw;
-    background-image: url(../images/header/footer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-size: 1.2vw;
-}
 
 /*Smartphone*/
 @media all and (max-device-width : 699px) {
     .img-g{
         height: 200px;
+        font-size: 1.4rem;
     }
+    
 
     .commun2 {
         height: 30vh;
@@ -228,11 +220,104 @@
     .po1, .po2, .po3, .po4, .po5, .po6, .po7, .po8, .po9, .active, .po{
         height: 28vh;
     }
+
+    .salon {
+        color: blue;
+        background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.38\ \(3\)\ -\ Copie.jpeg);
+    }
+
+    .balcon {
+        color: blue;
+        background-image: url(../images/galerie/20210925_195330\ -\ Copie.jpg);
+    }
+
+    .cuisine {
+        color: blue;
+        background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.38\ \(5\)\ -\ Copie.jpeg);
+    }
+
+    .salle-de-bain {
+        color: blue;
+        background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ -\ Copie.jpeg);
+    }
+
+    .chambre-1 {
+        color: blue;
+        background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(3\)\ -\ Copie.jpeg);
+    }
+
+    .chambre-2 {
+        color: blue;
+        background-image: url(../images/galerie/1639059894815\ -\ Copie.jpg);
+    }
+
+    .chambre-3 {
+        color: blue;
+        background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(4\)\ -\ Copie.jpeg);
+    }
+
+    .couloir {
+        color: blue;
+        background-image: url(../images/galerie/couloir02hover.jpg);
+    }
+
+    .chambre-4 {
+        color: blue;
+        background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(1\)\ -\ Copie.jpeg);
+    }
+
 }
 
 /*Tablet*/
     @media only screen and (min-device-width : 700px) and (max-device-width : 1024px) {
-    
+        .salon {
+            color: blue;
+            background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.38\ \(3\)\ -\ Copie.jpeg);
+        }
+
+        .balcon {
+            color: blue;
+            background-image: url(../images/galerie/20210925_195330\ -\ Copie.jpg);
+        }
+
+        .cuisine {
+            color: blue;
+            background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.38\ \(5\)\ -\ Copie.jpeg);
+        }
+
+        .salle-de-bain {
+            color: blue;
+            background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ -\ Copie.jpeg);
+        }
+
+        .chambre-1 {
+            color: blue;
+            background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(3\)\ -\ Copie.jpeg);
+        }
+
+        .chambre-2 {
+            color: blue;
+            background-image: url(../images/galerie/1639059894815\ -\ Copie.jpg);
+        }
+
+        .chambre-3 {
+            color: blue;
+            background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(4\)\ -\ Copie.jpeg);
+        }
+
+        .couloir {
+            color: blue;
+            background-image: url(../images/galerie/couloir02hover.jpg);
+        }
+
+        .chambre-4 {
+            color: blue;
+            background-image: url(../images/galerie/WhatsApp\ Image\ 2021-12-30\ at\ 13.45.39\ \(1\)\ -\ Copie.jpeg);
+        }
+
+        .img-g {
+            font-size: 2rem;
+        }
 
 
 }

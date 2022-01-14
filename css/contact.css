@@ -60,10 +60,6 @@ h2 {
     border: 0.2rem solid rgb(70, 209, 238);
     box-shadow: inset 2px 2px 10px 10px rgb(70, 209, 238, 0.4);
 }
-.footer{
-    font-size: 1vw;
-    font-family: 'Times New Roman', Times, serif;
-}
 
 /*Smartphone*/
 @media all and (max-device-width : 699px) {
